@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>start Test</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <div class="test-container">
+      <div class="test-container-1">
+        <h1 id="test-heading"></h1>
+        <div id="quiz-container"></div>
+        <div class="btn-container">
+          <button class="marksforpreview" onclick="markforReview()">
+            Mark for Review & next
+          </button>
+          <button class="prev-btn prev" onclick="showPrevQuestion()">
+            Previous
+          </button>
+          <button class="next-btn next" onclick="showNextQuestion()">
+            Save & Next
+          </button>
+        </div>
+        <div id="timer">00:00</div>
+
+        <!-- Result Modal (inside test.html) -->
+        <div id="result-modal" class="modal">
+          <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Quiz Result</h2>
+            <p id="result-score"></p>
+            <p id="result-total"></p>
+            <p id="result-time"></p>
+            <button onclick="location.reload()">Retake Quiz</button>
+          </div>
+        </div>
+        <button class="submit" onclick="submitQuiz()">Submit</button>
+        <!-- modifing section -->
+        <div id="result-details" style="margin-top: 20px;"></div>
+      </div>
+      <div id="question-nav" class="test-container-2 nav-grid">
+        <!-- all button create dynaically -->
+        <div class="question-status">
+          <div class="flex-div">
+            <div class="answered"></div>
+            <p>Answered</p>
+          </div>
+          <div class="flex-div">
+            <div class="not-visite"></div>
+            <p>Not-visited</p>
+          </div>
+          <div class="flex-div">
+            <div class="Marked"></div>
+            <p>Marked</p>
+          </div>
+          <div class="flex-div">
+            <div class="Visited"></div>
+            <p>Visited</p>
+          </div>
+        </div>
+        <div id="section-test">SECTION: Test</div>
+        <div id="question-nav"></div>
+      </div>
+    </div>
+
+    <script src="test.js"></script>
+  </body>
+</html>

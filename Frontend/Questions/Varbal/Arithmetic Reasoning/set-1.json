@@ -1,0 +1,18 @@
+{
+    "topic": "Analogy Test",
+    "set": "Set-1",
+    "time":1500,
+    "totalQuestion":20,
+    "questions": [
+      {
+        "question": "The sum of two numbers is 120. If one number is 65, what is the other number?",
+        "options": ["45", "55", "60", "70"],
+        "answer": "55"
+      },
+      {
+        "question": "A man buys an article for ₹250 and sells it at a loss of 10%. What is the selling price?",
+        "options": ["₹225", "₹240", "₹245", "₹275"],
+        "answer": "₹225"
+      },
+    ]
+}

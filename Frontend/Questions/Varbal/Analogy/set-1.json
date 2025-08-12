@@ -1,0 +1,108 @@
+{
+    "topic": "Analogy Test",
+    "set": "Set-1",
+    "time":1500,
+    "totalQuestion":20,
+    "questions": [
+      {
+        "question": "Foot : Shoe :: Hand : ?",
+        "options": ["Glove", "Ring", "Watch", "Stick"],
+        "answer": "Glove"
+      },
+      {
+        "question": "Bird : Fly :: Fish : ?",
+        "options": ["Water", "Swim", "Fins", "Scale"],
+        "answer": "Swim"
+      },
+      {
+        "question": "Doctor : Hospital :: Teacher : ?",
+        "options": ["School", "Office", "College", "Class"],
+        "answer": "School"
+      },
+      {
+        "question": "Book : Reading :: Fork : ?",
+        "options": ["Drawing", "Writing", "Stirring", "Eating"],
+        "answer": "Eating"
+      },
+      {
+        "question": "Eye : See :: Ear : ?",
+        "options": ["Touch", "Listen", "Smell", "Taste"],
+        "answer": "Listen"
+      },
+      {
+        "question": "Mango : Fruit :: Carrot : ?",
+        "options": ["Leaf", "Vegetable", "Root", "Food"],
+        "answer": "Vegetable"
+      },
+      {
+        "question": "Dog : Bark :: Cat : ?",
+        "options": ["Roar", "Meow", "Howl", "Chirp"],
+        "answer": "Meow"
+      },
+      {
+        "question": "Knife : Cut :: Pen : ?",
+        "options": ["Ink", "Write", "Draw", "Read"],
+        "answer": "Write"
+      },
+      {
+        "question": "Square : Cube :: Circle : ?",
+        "options": ["Sphere", "Ring", "Cylinder", "Oval"],
+        "answer": "Sphere"
+      },
+      {
+        "question": "Oxygen : Respiration :: Food : ?",
+        "options": ["Eating", "Digestion", "Cooking", "Swallowing"],
+        "answer": "Digestion"
+      },
+      {
+        "question": "Carpenter : Wood :: Blacksmith : ?",
+        "options": ["Iron", "Gold", "Silver", "Plastic"],
+        "answer": "Iron"
+      },
+      {
+        "question": "Heart : Circulation :: Lungs : ?",
+        "options": ["Digestion", "Respiration", "Blood", "Breathing"],
+        "answer": "Respiration"
+      },
+      {
+        "question": "Clock : Time :: Thermometer : ?",
+        "options": ["Weight", "Heat", "Pressure", "Temperature"],
+        "answer": "Temperature"
+      },
+      {
+        "question": "Train : Track :: Boat : ?",
+        "options": ["Sea", "Dock", "Water", "River"],
+        "answer": "Water"
+      },
+      {
+        "question": "King : Throne :: Judge : ?",
+        "options": ["Bench", "Court", "Chair", "Gavel"],
+        "answer": "Bench"
+      },
+      {
+        "question": "Fire : Heat :: Ice : ?",
+        "options": ["Cold", "Chill", "Water", "Frozen"],
+        "answer": "Cold"
+      },
+      {
+        "question": "Lock : Key :: Question : ?",
+        "options": ["Statement", "Solution", "Answer", "Puzzle"],
+        "answer": "Answer"
+      },
+      {
+        "question": "Lion : Den :: Bird : ?",
+        "options": ["Sky", "Nest", "Tree", "House"],
+        "answer": "Nest"
+      },
+      {
+        "question": "India : Rupee :: USA : ?",
+        "options": ["Dollar", "Euro", "Pound", "Franc"],
+        "answer": "Dollar"
+      },
+      {
+        "question": "Sword : Warrior :: Pen : ?",
+        "options": ["Student", "Writer", "Teacher", "Artist"],
+        "answer": "Writer"
+      }
+    ]
+}

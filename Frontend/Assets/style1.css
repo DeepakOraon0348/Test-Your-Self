@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #191970;
+    color: white;
+}
+.container{
+    max-width: 100%;
+    margin: 0 5px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #191960;
+    border: 1px solid #c4ec55;
+    border-radius: 20px;
+}
+
+/* make responsive */
+@media (max-width: 768px) {
+     .header-content>a {
+        display: none;
+     }
+     .logIn-button > button{
+        display: none;
+     }
+}
+.logo{
+    margin-left: 3rem;
+    height: 40px;
+    width: 40px;
+    
+}
+.logo >img{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.header-content{
+    align-items: center;
+    display: flex;
+     
+}
+.header-content>a{
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 200;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.logIn-button{
+    margin-right: 2rem;
+    margin-top: 0rem;
+}
+.logIn-button >button{
+    background-color: green;
+    color: aliceblue;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+.content{
+    height: 60vh;
+    margin: 2rem 0;
+}
+.content>h1{
+    width: 100%;
+    margin: 2rem 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+
+}
+@media (max-width: 768px){
+    .content>h1{
+        margin-top: 5rem;
+        font-size: 35px;
+        white-space: normal; 
+        word-wrap: break-word; 
+        overflow-wrap: break-word;
+    }
+}
+    
+.cotegory{
+    margin: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    font-size: 1.5rem;
+
+}
+.inputBox{
+    width: 70%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 2rem;
+    background-color: aliceblue;
+    color: black;
+    font-size: 1rem;
+}
+@media(max-width: 768px){
+    .cotegory{
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .inputBox{
+        min-width: 80%;
+        margin-top: 2rem;
+        padding: 1rem;
+        font-size: 17px;
+        border-radius: 2rem;
+    }
+}
+.footer-container{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: baseline;
+
+}
+@media(max-width: 768px){
+    .footer-container{
+        background-color: black;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .footer-container>div{
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,108 @@
+{
+  "topic": "Alphabet Test",
+  "set": "Set-1",
+  "time":1500,
+  "totalQuestion":20,
+  "questions": [
+    {
+      "question": "What is the 15th letter of the English alphabet?",
+      "options": ["M", "O", "P", "Q"],
+      "answer": "O"
+    },
+    {
+      "question": "What is the 8th letter from the right in the English alphabet?",
+      "options": ["S", "R", "T", "L"],
+      "answer": "S"
+    },
+    {
+      "question": "If A = 1, B = 2, ..., Z = 26, what is the sum of the positions of letters in “DOG”?",
+      "options": ["26", "24", "28", "27"],
+      "answer": "27"
+    },
+    {
+      "question": "Which letter is in the middle of the English alphabet?",
+      "options": ["M", "N", "O", "L"],
+      "answer": "N"
+    },
+    {
+      "question": "How many letters are there between K and Q?",
+      "options": ["4", "5", "6", "3"],
+      "answer": "5"
+    },
+    {
+      "question": "If the word 'COMPUTER' is reversed, what is the 4th letter from the left?",
+      "options": ["U", "M", "T", "P"],
+      "answer": "T"
+    },
+    {
+      "question": " If every alternate letter starting from B is removed, what is the 10th letter in the new sequence?",
+      "options": ["S", "Q", "O", "P"],
+      "answer": "O"
+    },
+    {
+      "question": " If even-position letters are replaced with the next letter, what is the new 8th letter?",
+      "options": ["H", "I", "G", "J"],
+      "answer": "I"
+    },
+    {
+      "question": "How many such letter pairs are there in the word “EDUCATION” with same number of letters between as in alphabet?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "3"
+    },
+    {
+      "question": "In reverse alphabet order (Z to A), what is the 7th letter from the left?",
+      "options": ["T", "S", "W", "N"],
+      "answer": "T"
+    },
+    {
+      "question": "In a code, BACK = 2-1-3-11. What is FACE?",
+      "options": [" 6-1-3-5", "5-1-3-5", "6-2-3-5", "6-1-2-5"],
+      "answer": "6-1-3-5"
+    },
+    {
+      "question": "If A=Z, B=Y, ..., then BAD = ?",
+      "options": ["YZW", "YZC", "YZX", "YAX"],
+      "answer": "YZX"
+    },
+    {
+      "question": "Which letter is 3rd to the right of the 7th from the left?",
+      "options": ["H", "I", "J", "K"],
+      "answer": "J"
+    },
+    {
+      "question": "If PENCIL → QFODJM, then ERASER → ?",
+      "options": ["FSBTFS", " FSBTFS", "FSBTFQ", "FSBTFQ"],
+      "answer": "FSBTFS"
+    },
+    {
+      "question": " What is the next letter in series: B, D, G, K, P, ?",
+      "options": ["R", "S", "V", "U"],
+      "answer": "V"
+    },
+    {
+      "question": "If positions of letters are reversed (A↔Z...), what is the 5th letter from the left?",
+      "options": ["U", "V", "W", "R"],
+      "answer": "V"
+    },
+    {
+      "question": "Which letter is 4th to the left of 18th from right end?",
+      "options": ["H", "G", "F", "I"],
+      "answer": "I"
+    },
+    {
+      "question": "How many letters in “CIRCULAR” have the same spacing as in alphabet?",
+      "options": ["1", "2", "3", "0"],
+      "answer": "2"
+    },
+    {
+      "question": "If MANGO → NBOHP, then APPLE → ?",
+      "options": ["BQQMF", "BQQME", "BQQLF", "BQQLG"],
+      "answer": "BQQMF"
+    },
+    {
+      "question": "What is the alphabetical value of “ALPHABET”? (A=1, ..., Z=26)",
+      "options": ["75", "73", "70", "78"],
+      "answer": "73"
+    }
+  ]
+}

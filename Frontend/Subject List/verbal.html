@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varbal aptituted</title>
+    <link rel="stylesheet" href="verbal.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- dropdown grid-container -->
+      <div class="make-grid-1">
+        <div class="dropdown">
+          <div class="select">
+            <span class="topic">Alphabet Test</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="menu">
+            <li class="active"></li>
+            <li><button onclick="loadSet('Alphabet Test', 'Set-1')">Set-1</button></li>
+            <li><button onclick="loadSet('Alphabet Test', 'Set-2')">Set-2</button></li>
+          </ul>
+        </div>
+        <!-- topic two -->
+        <div class="dropdown">
+          <div class="select">
+            <span class="topic">Analogy</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="menu">
+            <li class="active"></li>
+            <li><button onclick="loadSet('Analogy', 'Set-1')">Set-1</button></li>
+            <li><button onclick="loadSet('Analogy', 'Set-2')">Set-2</button></li>
+          </ul>
+        </div>
+        <!-- topic three -->
+        <div class="dropdown">
+          <div class="select">
+            <span class="topic">Arithmetic Reasoning</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="menu">
+            <li class="active"></li>
+            <li><button onclick="loadSet('Arithmetic Reasoning', 'Set-1')">Set-1</button></li>
+            <li><button onclick="loadSet('Arithmetic Reasoning', 'Set-2')">Set-2</button></li>
+          </ul>
+        </div>
+        <!-- topic four -->
+        <div class="dropdown">
+          <div class="select">
+            <span class="topic">Blood Relations</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="menu">
+            <li class="active"></li>
+            <li><button onclick="loadSet('Blood Relations', 'Set-1')">Set-1</button></li>
+            <li><button onclick="loadSet('Blood Relations', 'Set-2')">Set-2</button></li>
+          </ul>
+        </div>
+        <!-- topic five -->
+        <div class="dropdown">
+          <div class="select">
+            <span class="topic">Cause and Effect</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="menu">
+            <li class="active"></li>
+            <li><button onclick="loadSet('Cause and Effect', 'Set-1')">Set-1</button></li>
+            <li><button onclick="loadSet('Cause and Effect', 'Set-2')">Set-2</button></li>
+          </ul>
+        </div>
+        
+      </div>
+      <!-- start window -->
+      <div class="make-grid-2">
+        <h3 class="heading">Verbal aptitude mock Test</h3>
+        <div class="test-start">
+          <div class="topic-box">
+            <span class="topic-name">Alphabet Test</span>
+            <span class="set-order">set-1</span>
+          </div>
+          <div class="image-section">
+            <img src="./image11/test image.jpg" alt="">
+          </div>
+          <div class="start-button">
+            <button class="start">start</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="verbal.js"></script>
+  </body>
+</html>
